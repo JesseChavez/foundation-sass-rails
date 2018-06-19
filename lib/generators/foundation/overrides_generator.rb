@@ -12,7 +12,7 @@ module Foundation
       private
 
       def settings_file
-        File.join(vendor_stylesheets_base_dir, '_settings.scss')
+        File.join(vendor_stylesheets_base_dir, 'foundation','_settings.scss')
       end
 
       def overrides_file
